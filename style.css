@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg: #F4F7FA;
+    --card: #FFFFFF;
+
+    --primary: #0D6EFD;
+    --primary-dark: #0B5ED7;
+
+    --success: #198754;
+    --danger: #DC3545;
+
+    --text: #333333;
+    --text-muted: #6C757D;
+
+    --border: #DEE2E6;
+
+    --navbar-start: #041B4A;
+    --navbar-end: #002A6B;
+}
+
+.navbar-custom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 30px;
+
+    background:linear-gradient(
+        90deg,
+        #041B4A,
+        #002A6B
+    );
+
+    border-radius:15px;
+    color:white;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+.logo-section img{
+    width:2.5rem;
+    height:2.5rem;
+    object-fit:contain;
+    transition:0.3s;
+}
+
+.logo-section img:hover{
+    transform:scale(1.1);
+}
+.logo-section i{
+    font-size:32px;
+}
+
+.logo-section h2{
+    margin:0;
+    font-weight:600;
+    line-height: 1;
+}
+
+.storage-info{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:#C7F9CC;
+}
+
+/* book-dash Start */
+.book-dash {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+/* book-dash End */
+
+/* add-book Start */
+.book-dash{
+    border:1px solid var(--border);
+    border-radius:12px;
+}
+
+.add-book,
+.book-list{
+    border:1px solid var(--bg);
+    border-radius:12px;
+    padding:20px;
+}
+/* add-book End */
+.bottom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.table-item{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
